@@ -22,26 +22,65 @@ markdown: kramdown
 
 # Title of the Site
 title: Data 101
-# Description of the Site
-description: Brief descr
+
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
-email: your-email@example.com
+heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+
+email: camila.paris04@gmail.com
+facebook_username: /
+twitter_username: /
+instagram_username: /
+linkedin_username: /
+github_username:  /
+youtube_channel_id: /
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
 
 # Build settings
 #remote_theme: camiparis34/WhatATheme
 #theme: minima
+sass:
+  sass_dir: _sass
+  style: compressed
 plugins:
   - jekyll-feed
   - jekyll-admin
+
+
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
 #remote_theme: "minimal-mistakes-master/minima-mistakes-jekyll"
 #plugins:
 #  - jekyll-remote-theme
@@ -53,14 +92,14 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
