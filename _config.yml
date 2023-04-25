@@ -1,11 +1,9 @@
 # WhatATheme
 markdown: kramdown
-
 # URL of the Site
 url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
-
 # Title of the Site
 title: Data 101
 # Description of the Site
@@ -18,8 +16,9 @@ site-keywords: Site, Blog, Data, Engineering
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: /assets/images/meta.jpg
+heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
+heroimage: /WhatATheme/assets/images/meta.jpg
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: camila.paris04@gmail.com
@@ -33,13 +32,10 @@ email: camila.paris04@gmail.com
 #behance_username: /
 #dribbble_username: /
 #spotify_username: /
-
 # Google Analytics
 google-analytics: UA-163806439-1
-
 # Disqus
 disqus-shortname: thedevslot
-
 # Name of the Author
 author-name: Camila Paris
 # URL for the Image of the Author
@@ -48,24 +44,19 @@ author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-pictu
 author-about: Welcome to Data 101, dedicated to exploring the world of data in a clear and concise manner. As a data engineer with experience in data science and machine learning, I bring a unique perspective to the field of data management. Through my work with tools such as IICS, Snowflake, and Talend, I have gained valuable insights into the latest trends and best practices in data engineering. I am passionate about breaking down complex concepts into understandable pieces, and providing a solid foundation for anyone looking to learn more about data pipelines, warehousing, data processing, and ML models. In this blog, I aim to share my knowledge and expertise in the field. My focus will be on providing informative and actionable insights into the world of data, with an emphasis on practical tips and real-world applications. Whether you are an experienced data professional or just starting out, this blog is for you. Join me as we explore the latest developments in AI, data engineering, and data science, and learn how to maximize the value of your data for your business or personal needs. Thank you for joining me on this journey of discovery!
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/camiparis34
-
 # SASS
 sass:
   sass_dir: _sass
   style: compressed
-
 # Build settings
 plugins:
   - jekyll-admin
   - jekyll-feed
-
 # Permalink
 permalink: "blog/:title"
-
 # Compress
 compress_html:
   clippings: all
-
 # Defaults
 defaults:
   -
@@ -82,7 +73,6 @@ defaults:
       type: 'pages'
     values:
       layout: page
-
 # Exclude
 exclude:
   - .sass-cache/
