@@ -41,7 +41,7 @@ author-name: Camila Paris
 # URL for the Image of the Author
 author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
-author-about: Welcome to Data 101, dedicated to exploring the world of data in a clear and concise manner. As a data engineer with experience in data science and machine learning, I bring a unique perspective to the field of data management. Through my work with tools such as IICS, Snowflake, and Talend, I have gained valuable insights into the latest trends and best practices in data engineering. I am passionate about breaking down complex concepts into understandable pieces, and providing a solid foundation for anyone looking to learn more about data pipelines, warehousing, data processing, and ML models. In this blog, I aim to share my knowledge and expertise in the field. My focus will be on providing informative and actionable insights into the world of data, with an emphasis on practical tips and real-world applications. Whether you are an experienced data professional or just starting out, this blog is for you. Join me as we explore the latest developments in AI, data engineering, and data science, and learn how to maximize the value of your data for your business or personal needs. Thank you for joining me on this journey of discovery!
+author-about: Welcome to Data 101, dedicated to exploring the world of data in a clear and concise manner.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/camiparis34
 # SASS
